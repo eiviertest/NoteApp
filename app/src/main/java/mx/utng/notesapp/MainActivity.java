@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
                     displaySpeechScreen();
                 }else {
                     Note note = (Note) parent.getItemAtPosition(position);
-                    Intent intent = new Intent(getApplicationContext(), DeleteActivity.class);
+                    Intent intent = new Intent(getApplicationContext(), DeleteNoteActivity.class);
                     intent.putExtra("id", note.getId());
                     startActivity(intent);
                 }

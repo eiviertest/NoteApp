@@ -6,4 +6,7 @@
     -->
     <string name="hello_world">Hello Square World!</string>
     <string name="title_activity_delete2">DeleteActivity2</string>
+    <string name="title_activity_delete_note">DeleteNote</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_">Ac</string>
 </resources>

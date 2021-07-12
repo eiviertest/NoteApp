@@ -24,7 +24,10 @@
             android:name="com.google.android.wearable.standalone"
             android:value="true" />
 
-        <activity android:name=".DeleteActivity" />
+        <activity
+            android:name=".DeleteNoteActivity"
+            android:label="@string/title_activity_delete_note">
+        </activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
@@ -34,9 +37,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="androidx.wear.activity.ConfirmationActivity">
-        </activity>
+        <activity android:name="androidx.wear.activity.ConfirmationActivity" />
     </application>
 
 </manifest>
