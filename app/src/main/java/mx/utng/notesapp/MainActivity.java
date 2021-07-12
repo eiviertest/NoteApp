@@ -59,7 +59,7 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if(requestCode == 1001 && requestCode == RESULT_OK) {
+        if(requestCode == 1001 && resultCode == RESULT_OK) {
             List<String> resultados = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
             String mensaje = resultados.get(0);
             Note nota = new Note(null, mensaje);
